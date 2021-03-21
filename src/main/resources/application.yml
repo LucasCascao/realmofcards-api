@@ -4,9 +4,9 @@ imagem-path: /media/lucas_cascao/ubuntu/Develop/Git/realmofcards/client/src/asse
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/realmofcards
-    username: postgres
-    password: 48299871
+    url: jdbc:postgresql://ec2-18-210-180-94.compute-1.amazonaws.com:5432/d5p17iddvvul56
+    username: gqwgwgrggqcnte
+    password: f9873187cfc96ecea79a465a49143ffca8ec80057f539946c00a089bbc81546a
     initialization-mode: always
     data: classpath:org/springframework/session/jdbc/schema-postgresql.sql
     continue-on-error: true
